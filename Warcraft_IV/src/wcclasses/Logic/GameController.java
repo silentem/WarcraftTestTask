@@ -154,16 +154,6 @@ public class GameController {
         }catch (IOException e){
             e.printStackTrace();
         }
-
-        Console console = System.console();
-
-        if (console != null){
-            console.format(logStr);
-            console.readLine();
-
-        }
-
-
     }
 
     private Character getNextMember(Gang gang){
